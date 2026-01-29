@@ -1,0 +1,47 @@
+/*
+  Guía rápida:
+  1) Cambia los colores en :root
+  2) Edita tamaños con font-size y padding
+  3) Añade tus clases nuevas al final
+*/
+
+:root {
+  --color-bg: #f7f7f9;
+  --color-text: #1f2937;
+  --color-primary: #2563eb;
+  --color-card: #ffffff;
+  --border-radius: 12px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  color: var(--color-text);
+  background: var(--color-bg);
+  line-height: 1.6;
+}
+
+.site-header,
+.site-footer {
+  text-align: center;
+  padding: 32px 16px;
+  background: var(--color-primary);
+  color: #fff;
+}
+
+.site-main {
+  max-width: 900px;
+  margin: 32px auto;
+  padding: 0 16px 48px;
+}
+
+.card {
+  background: var(--color-card);
+  border-radius: var(--border-radius);
+  padding: 24px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}

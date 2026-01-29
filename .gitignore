@@ -1,0 +1,16 @@
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Entornos
+.env
+
+# Editor
+.vscode/
+.idea/
+
+# Otros
+node_modules/
