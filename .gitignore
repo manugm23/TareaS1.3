@@ -1,16 +1,16 @@
-# Sistema
+# System Files
 .DS_Store
 Thumbs.db
 
 # Logs
 *.log
 
-# Entornos
+# Environment Variables
 .env
 
 # Editor
 .vscode/
 .idea/
 
-# Otros
+# Dependencies
 node_modules/

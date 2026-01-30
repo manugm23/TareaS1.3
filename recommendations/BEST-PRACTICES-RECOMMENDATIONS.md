@@ -19,6 +19,7 @@ Este documento está pensado para personas que empiezan desde cero.
   <h1 class="hero__titulo">Bienvenido</h1>
 </section>
 ```
+> Si prefieres hacer uso de un standar de naming conventions, siempre puedes usar [BEM](https://en.bem.info/methodology/) 
 
 ## 2) Semantic Tags
 
@@ -85,25 +86,7 @@ Son reglas internacionales para crear webs accesibles.
 - Perfect pixel (en Chrome DevTools)
 
 
-## 6) Checklist para revisar tu página
-
-Usa esta lista antes de presentar tu proyecto:
-
-- [ ] ¿Tengo un `<!DOCTYPE html>` al inicio?
-- [ ] ¿Mi HTML tiene `<html>`, `<head>` y `<body>`?
-- [ ] ¿El `<title>` describe mi página?
-- [ ] ¿Todas mis imágenes tienen `alt`?
-- [ ] ¿Todos mis botones usan `<button>`, no `<div>`?
-- [ ] ¿Mis clases tienen nombres descriptivos?
-- [ ] ¿Uso etiquetas semánticas (`header`, `nav`, `main`, `footer`)?
-- [ ] ¿Mis formularios tienen `<label>` asociadas?
-- [ ] ¿El HTML se valida sin errores en W3C?
-- [ ] ¿La página se ve bien en móvil?
-- [ ] ¿Pasé la página por Lighthouse?
-- [ ] ¿Tengo un `.gitignore` con archivos irrelevantes?
-- [ ] ¿Usé ramas en Git, no programé en `main`?
-
-## 8) Sobre el README
+## 6) About the project - README.md
 
 El README que recibes en este boilerplate es **orientativo**, no es el definitivo.
 
@@ -121,7 +104,31 @@ El README que recibes en este boilerplate es **orientativo**, no es el definitiv
 
 **Recuerda:** El README es la puerta de entrada a tu proyecto. Dedica tiempo a hacerlo claro y útil.
 
-## 9) Consejos finales
+> Ten en cuenta esta documentación para que revises tu proyecto antes de entregar siempre https://github.com/IT-Academy-BCN/ita-sprint0/blob/main/instruccions_alumnes/bones_practiques.md
+
+
+## 7) Checklist para revisar tu página
+Te recomendamos que siempre mires la guía de buenas practicas https://github.com/IT-Academy-BCN/ita-sprint0/blob/main/instruccions_alumnes/bones_practiques.md
+
+Pero puedes usar esta lista antes de presentar este proyecto pequeño:
+
+- [ ] ¿Tengo un `<!DOCTYPE html>` al inicio?
+- [ ] ¿Mi HTML tiene `<html>`, `<head>` y `<body>`?
+- [ ] ¿El `<title>` describe mi página?
+- [ ] ¿Todas mis imágenes tienen `alt`?
+- [ ] ¿Todos mis botones usan `<button>`, no `<div>`?
+- [ ] ¿Mis clases tienen nombres descriptivos?
+- [ ] ¿Uso etiquetas semánticas (`header`, `nav`, `main`, `footer`)?
+- [ ] ¿Mis formularios tienen `<label>` asociadas?
+- [ ] ¿El HTML se valida sin errores en W3C?
+- [ ] ¿La página se ve bien en móvil?
+- [ ] ¿Pasé la página por Lighthouse?
+- [ ] ¿Tengo un `.gitignore` con archivos irrelevantes?
+- [ ] ¿Usé ramas en Git, no programé en `main`?
+- [ ] ¿tengo el README.md con todas las instrucciones y documentación necesaria?
+
+
+## 8) Consejos finales
 
 - Mantén tu HTML limpio y ordenado.
 - Un elemento = una responsabilidad.
