@@ -13,8 +13,6 @@ Brief description of your web layout project. Explain what it does, what it's fo
 <!-- Add a screenshot or GIF of your project here -->
 ![Project preview](path/to/your/screenshot.png)
 
-_You can add a screenshot using tools like [Awesome Screenshot](https://www.awesomescreenshot.com/)._
-
 ## Project Structure
 
 ```
@@ -30,12 +28,32 @@ _You can add a screenshot using tools like [Awesome Screenshot](https://www.awes
 ├── .gitignore
 └── README.md
 ```
+This project has a particular git branching strategy, so eachiteration should be developed on a separate  feature-branch. Each branch should maintain a separated README.md file with specific instructions related to the tecnologies used in that iteration. The sugestion for the branch structure in this project is:
+
+```
+/
+└── main
+    └── develop
+        ├── vainilla-iteration 
+            ├── feature/navbar
+            ├── feature/footer
+            ├── feature/form
+            ├── feature/desktop-styling
+            └── feature/...
+        ├── sass-iteration
+            └── feature/...
+        └── tailwind-iteration               // Remember to use npm o pnpm to develop easy and faster in this iteration. Also remember add to the .gitignore the node-modules folder
+            └── feature/...
+
+```
+## BECAREFUL!
+From this section of the readme you shuld to write in base on the tecnology context selected.
 
 ## Technologies Used
 
 - **HTML5** - Semantic structure
 - **CSS3** - Styles and responsive design
-- **Git** - Version control
+- **Tailwind** - Styling library (just add this )
 - **GitHub Pages** (optional) - Deployment
 
 ## Installation and Execution

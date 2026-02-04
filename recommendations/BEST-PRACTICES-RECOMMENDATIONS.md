@@ -2,6 +2,9 @@
 
 Este documento está pensado para personas que empiezan desde cero.
 
+> Ten en cuenta tambien esta documentación para que revises tu proyecto antes de entregar siempre https://github.com/IT-Academy-BCN/ita-sprint0/blob/main/instruccions_alumnes/bones_practiques.md
+
+
 ## 1) Naming classes & id
 
 **Reglas simples:**
