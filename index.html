@@ -1,12 +1,96 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Tittle name</title>
-    <!-- Aquí likeas tu html con tu css -->
-  </head>
-  <body>
-    <!-- Aquí va tu esqueleto HTML -->
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Barcos</title>
+  <link rel="stylesheet" href="src/css/style.css" />
+</head>
+
+<body>
+    <!-- Header -->
+      <header class="header">
+        <div>
+          <h1>LUXURY</h1>
+          <p>Yachts</p>
+        </div>
+        <button class="menu-btn" aria-label="Abrir menú">
+      ☰
+        </button>
+      </header>
+<main>
+    <!-- Hero Section -->
+    <section class="hero">
+          <img 
+            src="https://images.unsplash.com/photo-1580422666359-7160890d8c0b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjB5YWNodCUyMHN1bnNldCUyMG9jZWFufGVufDF8fHx8MTc3MDE2MDI5NHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+            alt="Luxury Yacht"/>
+        <div class="hero-content">
+            <span class="badge">Colección Exclusiva 2026</span>  
+            <h2 class="hero-subtitle">Navegando hacia la perfección</h2>    
+            <p class="hero-heading">Descubre nuestra selecta colección de yates de lujo. 
+              Cada travesía es una obra maestra del diseño y la elegancia.</p>
+            <button class="btn">Explorar Colección</button>
+        </div>
+     </section>
+    <!-- Featured Yachts -->
+      <section class="fleet">
+        <div class="fleet-tittle">
+          <p class="fleet-subtitle">NUESTRA FLOTA</p>
+          <h3 class="fleet-heading">Barcos Destacados</h3>
+        </div>
+        <!-- Grind de Tarjetas -->
+            <div class="grid">
+                <article class="card">
+                    <img 
+                        src="https://images.unsplash.com/photo-1740482881430-53d0e1c04fef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3aGl0ZSUyMGx1eHVyeSUyMHlhY2h0fGVufDF8fHx8MTc3MDI1MDE5Nnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+                        alt="Yate de lujo Ocean Majesty al atardecer"/>
+                    <div class="card-info">
+                        <h4>Ocean Majesty</h4>
+                        <p>45m · 12 Guests · 6 Crew</p>
+                        <span class="price">€500/día</span>
+                    </div>
+                </article>        
+                <article class="card">
+                    <img 
+                        src="https://images.unsplash.com/photo-1597430203235-a8d35b24b37d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjB5YWNodCUyMHNlYXxlbnwxfHx8fDE3NzAyNTAxOTd8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+                        alt="Yate de lujo Sunset Cruiser navegando al atardecer"/>
+                    <div class="card-info">
+                        <h4>Sunset Cruiser</h4>
+                        <p>58m · 16 Guests · 8 Crew</p>
+                        <span class="price">€750 / día</span>
+                    </div>
+                </article>
+                <article class="card">
+                    <img 
+                        src="https://images.unsplash.com/photo-1677151420167-b2de389d02db?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzdXBlcnlhY2h0JTIwbWFyaW5hfGVufDF8fHx8MTc3MDI1MDE5N3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+                        alt="Yate de lujo Sunset Cruiser navegando al atardecer"/>
+                    <div class="card-info">
+                        <h4>Royal Elegance</h4>
+                        <p>72m · 20 Guests · 12 Crew</p>
+                        <span class="price">€1200 / día</span>
+                    </div>
+                </article>        
+              </div>
+        </section>
+</main>
+    <!-- Footer -->
+    <footer>
+      <div class="footer-content">
+        <div>
+            <h4>LUXURY YACHTS</h4>
+            <p>
+                Expertos en experiencias náuticas de lujo desde 1995.
+            </p>
+        </div>
+        <nav>
+            <a href="#">Sobre Nosotros</a>
+            <a href="#">Servicios</a>
+            <a href="#">Contacto</a>
+        </nav>
+        <p class="copyright">
+            © 2026 Luxury Yachts
+        </p>
+        </div>
+    </footer>
+</body>
 </html>
